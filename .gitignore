@@ -1,0 +1,45 @@
+# ============================
+# Proyecto Cobranza
+# ============================
+
+# Datos generados
+data/raw/*
+data/interim/*
+data/processed/*
+data/analytical/*
+data/ml/*
+data/powerbi/*
+
+# Mantener estructura
+!data/**/.gitkeep
+
+# Bases de datos
+*.db
+*.sqlite
+*.sqlite3
+
+# Modelos entrenados
+models/*.pkl
+models/*.joblib
+!models/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Entornos
+.env
+.venv/
+env/
+venv/
+
+# VS Code
+.vscode/
+
+# Sistema
+.DS_Store
+Thumbs.db
